@@ -1,0 +1,15 @@
+// ltl-kv-store/main.ltl
+//
+// Persistent append-only KV store with compaction.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-kv-store v0.1.0")
+    io::println("Persistent append-only KV store with compaction.")
+    0
+}
