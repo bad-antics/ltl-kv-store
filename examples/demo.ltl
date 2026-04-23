@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_kv_store
+
+import std::io
+use ltl_kv_store as lib
+
+fn main() {
+    io::println("ltl_kv_store demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
